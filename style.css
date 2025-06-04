@@ -1,0 +1,75 @@
+/* Google Font */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f0f2f5, #d9e4f5);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+
+.landing-container {
+    background: white;
+    padding: 40px 50px;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 450px;
+    width: 90%;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background 0.3s ease, transform 0.2s ease;
+    text-align: center;
+    color: white;
+    background-color: #3498db;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    background-color: #2980b9;
+}
+
+.btn.primary {
+    background-color: #2ecc71;
+}
+
+.btn.primary:hover {
+    background-color: #27ae60;
+}
+
+.btn.outline {
+    background-color: transparent;
+    color: #3498db;
+    border: 2px solid #3498db;
+}
+
+.btn.outline:hover {
+    background-color: #3498db;
+    color: white;
+}
